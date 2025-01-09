@@ -77,4 +77,4 @@ for id in follower:
     if id not in following:
         cnt += 1
         print(id)
-print("당신이 ",cnt , "명을 말팔 중이지 않음")
+print("당신이 ",cnt , "명을 맞팔 중이지 않음")
