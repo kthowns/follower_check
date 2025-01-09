@@ -2,10 +2,10 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=intellij,python
 
 ### Resource ###
-
 *.csv
 *.txt
 *./idea
+*./train_data
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider

@@ -46,7 +46,7 @@ def extractIdList(lines):
     return resultId
 
 # JIT 모델 로드
-loaded_model = torch.jit.load('id_check_model_jit.pt')
+loaded_model = torch.jit.load('model.pt')
 loaded_model.eval()  # 평가 모드로 전환
 
 print("팔로워 목록 파일 이름 입력 ex) follower.txt : ", end='')

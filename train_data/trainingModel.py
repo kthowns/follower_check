@@ -127,5 +127,5 @@ print(f"Test Accuracy: {accuracy * 100:.2f}%")
 
 # 14. 모델 저장 (JIT 사용)
 model_scripted = torch.jit.script(model)  # 모델을 TorchScript로 변환
-model_scripted.save('id_check_model_jit.pt')  # JIT 모델 저장
+model_scripted.save('model.pt')  # JIT 모델 저장
 print("Save done.")
