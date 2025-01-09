@@ -4,8 +4,8 @@
 ### Resource ###
 *.csv
 *.txt
-*./idea
-*./train_data
+./idea
+./train_data
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
